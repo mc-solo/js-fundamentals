@@ -18,3 +18,7 @@ age = 21;
 const birthYear = 2002; //this can be mutated
 // birthYear = 2;
 // results in an error
+
+// we can use before even declaring them when using var
+console.log(`${varName}`);
+var varName = "varValue";
