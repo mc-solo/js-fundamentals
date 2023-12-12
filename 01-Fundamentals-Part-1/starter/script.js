@@ -15,5 +15,6 @@ console.log(`My name is ${firstName} ${lastName}`);
 let age = 20; //this can be mutated
 age = 21;
 
-const birthYear = 2002;
-birthYear = 2;
+const birthYear = 2002; //this can be mutated
+// birthYear = 2;
+// results in an error
