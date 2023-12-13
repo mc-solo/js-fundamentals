@@ -7,3 +7,10 @@ const now = 2023;
 console.log(age1 * 3);
 console.log(6 ** 3);
 console.log(5 ** 3);
+
+// using the '+' operator to concatanation
+
+const firstName = "Wendi";
+const lastName = "idneW";
+
+console.log(firstName + " " + lastName);
