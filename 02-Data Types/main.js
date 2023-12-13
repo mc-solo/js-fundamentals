@@ -9,3 +9,8 @@ console.log(typeof javaScript); //to check the data type of a var
 javaScript = "Yes";
 console.log(javaScript);
 console.log(typeof javaScript);
+
+// undefined data types
+let varName;
+console.log(varName);
+console.log(typeof varName1);
