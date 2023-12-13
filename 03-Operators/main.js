@@ -14,3 +14,14 @@ const firstName = "Wendi";
 const lastName = "idneW";
 
 console.log(firstName + " " + lastName);
+
+// Assignment operators
+let x = 20;
+x += 27; //equals to x = x 10; also works for other operators
+
+console.log(x);
+
+// comparison operators
+let z;
+let y;
+console.log(z > y); //boolean value
