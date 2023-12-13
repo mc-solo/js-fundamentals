@@ -16,7 +16,6 @@ console.log(varName);
 console.log(typeof varName);
 
 // null type
-
 let year = null;
 console.log(year);
 console.log(typeof year); //js bug, left for legacy reasons
