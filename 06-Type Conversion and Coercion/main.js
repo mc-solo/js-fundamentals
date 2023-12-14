@@ -13,4 +13,10 @@ console.log(
 let num1 = "7";
 const num2 = 40;
 const result = num1 + num2;
-console.log(result);
+console.log(result); //expected to be a string
+
+console.log(typeof result);
+
+let varName = "true";
+console.log(typeof varName);
+console.log(typeof Boolean(varName));
