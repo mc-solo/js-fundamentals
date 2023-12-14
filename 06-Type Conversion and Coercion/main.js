@@ -8,4 +8,9 @@ console.log(
   `Type of x: ${typeof x}, Type of Number(x): ${typeof Number(x)}, sum: ${sum}`
 );
 
-// implicit conversion
+// implicit coercion
+
+let num1 = "7";
+const num2 = 40;
+const result = num1 + num2;
+console.log(result);
