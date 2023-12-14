@@ -16,3 +16,22 @@ if (isOldEnough) {
 } else {
   console.log(`You're under age to get your driving license`);
 }
+
+//Switch Statements
+const os = "windows";
+
+switch (os) {
+  case "mac-os-X":
+    console.log("Still better than windwos");
+    break;
+
+  case "linux":
+    console.log("Best you can use for free");
+    break;
+
+  case "windows":
+    console.log("Shitty os ever. Use @ your risk");
+    break;
+  default:
+    console.log("You aint got an OS, consider writing one");
+}
