@@ -18,14 +18,12 @@ if (isOldEnough) {
 }
 
 //Switch Statements
-const os = "windows";
+const os = "linux";
 
 switch (os) {
   case "mac-os-X":
-    console.log("Still better than windwos");
-    break;
-
   case "linux":
+    console.log("Still better than windwos");
     console.log("Best you can use for free");
     break;
 
