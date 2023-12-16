@@ -17,3 +17,12 @@ fruitProcessor(7, 8); //running the function
 
 const yummyJuice = fruitProcessor(4, 7);
 console.log(yummyJuice);
+// Write a JavaScript function named calculateRectangleArea that takes two parameters: width and height.
+
+function calculateRectangleArea(width, height) {
+  const value = width * height;
+  return value;
+}
+
+const area = calculateRectangleArea(9, 7);
+console.log(area);
