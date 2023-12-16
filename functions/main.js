@@ -57,3 +57,15 @@ const sayHello = () => {
 };
 
 sayHello();
+
+const rectArea = (width, height) => {
+  const product = width * height;
+  return product;
+};
+
+console.log(rectArea(10, 10));
+
+const doubleNum = (num) => {
+  return num * 2;
+};
+console.log(doubleNum(47));
