@@ -39,3 +39,15 @@ let Hey = function (brother) {
   console.log(`Hello there ${brother}`);
 };
 Hey("Wendi");
+
+//Function Declaration:
+
+// Syntax: Uses the function keyword followed by the function name.
+// Hoisting: Entire function is hoisted to the top of the scope, so it can be called before it's declared.
+// Usage: Can be called before the declaration.
+
+greet("John"); // This works even before the declaration
+
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
