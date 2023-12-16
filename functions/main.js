@@ -51,3 +51,9 @@ greet("John"); // This works even before the declaration
 function greet(name) {
   console.log(`Hello, ${name}!`);
 }
+
+const sayHello = () => {
+  console.log("hello");
+};
+
+sayHello();
