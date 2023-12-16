@@ -24,5 +24,18 @@ function calculateRectangleArea(width, height) {
   return value;
 }
 
-const area = calculateRectangleArea(9, 7);
+const area = calculateRectangleArea(10, 7);
 console.log(area);
+
+function greet(name) {
+  console.log(`Hello ${name}`);
+}
+
+greet("Wendi");
+
+// function expressions
+
+let Hey = function (brother) {
+  console.log(`Hello there ${brother}`);
+};
+Hey("Wendi");
