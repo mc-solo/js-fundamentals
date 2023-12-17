@@ -8,4 +8,5 @@ console.log(fruits);
 
 // pop: removes the last element from the end of an array
 // fruits.pop();
+fruits.unshift("papaya"); //adds element to the beginning of the array
 console.log(fruits.length, fruits);
