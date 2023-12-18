@@ -19,7 +19,10 @@
 
 const arr = ["a", "b", "c", "d", "e", "f"];
 7;
-const newArray = arr.slice(3);
+const newArray = arr.slice(3, 4);
 
 console.log(arr);
 console.log(newArray);
+
+const extract = arr.slice(1, 2);
+console.log(extract);
