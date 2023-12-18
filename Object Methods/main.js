@@ -11,3 +11,14 @@ const person = {
 
 const age = person.calcAge(person.birthYear);
 console.log(age);
+
+// the 'this' keyword
+
+const myObject = {
+  property1: "value1",
+  method1: function () {
+    console.log(this.property1);
+  },
+};
+
+myObject.method1();
