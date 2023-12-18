@@ -6,5 +6,5 @@ console.log(fruits.length, fruits);
 
 //  the splice method
 
-fruits.splice(1.3);
+fruits.splice(1, 1);
 console.log(fruits.length, fruits);
