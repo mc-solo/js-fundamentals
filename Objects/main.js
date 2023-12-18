@@ -9,4 +9,5 @@ const person = {
 console.log(person);
 
 // getting a property form an object
+console.log(); //blank space
 console.log(person.job);
