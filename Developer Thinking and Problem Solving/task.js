@@ -14,3 +14,11 @@ const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // how to ignore errors
 // find min and max
 // subtract the min value from tha max value
+
+// implemeting the maximum value
+for (let i = temperatures[0]; i <= temperatures.length - 1; i++) {
+  let max = temperatures[0];
+  if (temperatures[i] > max) {
+    max = temperatures[i];
+  }
+}
