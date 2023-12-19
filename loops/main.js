@@ -27,11 +27,19 @@
 
 // iterating through an array
 
-const arr = [1, 11, 3, 33, 4];
-console.log(`length: ${arr.length}`);
-console.log();
+// const arr = [1, 11, 3, 33, 4];
+// console.log(`length: ${arr.length}`);
+// console.log();
 
-// i should always stay less thatn arr.length
-for (let i = 0; i <= arr.length - 1; i++) {
-  console.log(arr[i], typeof arr[i]);
+// // i should always stay less thatn arr.length
+// for (let i = 0; i <= arr.length - 1; i++) {
+//   console.log(arr[i], typeof arr[i]);
+// }
+
+// looping backwards
+
+const person = ["Wondwosen Asegid", 21, "developer", "coding"];
+
+for (let i = person.length - 1; i >= 0; i--) {
+  console.log(person[i]);
 }
