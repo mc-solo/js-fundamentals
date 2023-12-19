@@ -37,3 +37,8 @@ for (let i = temperatures[1]; i < temperatures.length; i++) {
 }
 
 console.log(min);
+
+// implementing temperature amplitude
+
+const tempAmplitude = max - min;
+console.log(tempAmplitude);
