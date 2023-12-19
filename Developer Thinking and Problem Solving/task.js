@@ -17,28 +17,26 @@ const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 // implemeting the maximum value
 
-let max = temperatures[0];
-
-for (let i = temperatures[1]; i < temperatures.length; i++) {
-  if (temperatures[i] > max) {
-    max = temperatures[i];
+const calcTempAmplitude = function (temps) {
+  let max = temperatures[0];
+  for (let i = temperatures[1]; i < temperatures.length; i++) {
+    if (temperatures[i] > max) {
+      max = temperatures[i];
+    }
   }
-}
-console.log(max);
 
-// implementing the min temperature
+  // implementing the min temperature
+  let min = temperatures[0];
 
-let min = temperatures[0];
-
-for (let i = temperatures[1]; i < temperatures.length; i++) {
-  if (temperatures[i] < min) {
-    min = temperatures[i];
+  for (let i = temperatures[1]; i < temperatures.length; i++) {
+    if (temperatures[i] < min) {
+      min = temperatures[i];
+    }
   }
-}
 
-console.log(min);
+  // implementing temperature amplitude
+  const tempAmplitude = max - min;
+  console.log(tempAmplitude);
+};
 
-// implementing temperature amplitude
-
-const tempAmplitude = max - min;
-console.log(tempAmplitude);
+calcTempAmplitude(temperatures);
