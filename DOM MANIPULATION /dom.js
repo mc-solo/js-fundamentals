@@ -19,8 +19,9 @@ items[2].textContent = 'Second item of the list';
 
 // GET ELEMENTS BY TAG NANE
 
-let lsits = document.getElementsByTagName('li');
+let lists = document.getElementsByTagName('li');
 
 for (let i = 0; i < lists.length; i++) {
-  console.log(list[i].style);
+  lists[i].style.backgroundColor = '#333';
+  lists[i].style.color = 'white';
 }
