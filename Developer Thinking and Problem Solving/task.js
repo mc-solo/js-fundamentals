@@ -25,3 +25,15 @@ for (let i = temperatures[1]; i < temperatures.length; i++) {
   }
 }
 console.log(max);
+
+// implementing the min temperature
+
+let min = temperatures[0];
+
+for (let i = temperatures[1]; i < temperatures.length; i++) {
+  if (temperatures[i] < min) {
+    min = temperatures[i];
+  }
+}
+
+console.log(min);
