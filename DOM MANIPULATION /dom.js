@@ -1,5 +1,11 @@
-let header = document.getElementsByClassName('main-header');
-console.log(header);
+// GET ELEMENT BY ID
 
-let primaryHeading = document.getElementById('primary-header');
-console.log(primaryHeading);
+let header = document.getElementById('primary-header');
+header.textContent = 'Listings Here';
+// header.textContent = 'Your Items Here';
+
+console.log(header.textContent);
+
+// GET ELEMENTS BY CLASS
+let items = document.getElementsByClassName('list-item-group');
+console.log(items);
