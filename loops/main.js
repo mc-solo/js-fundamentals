@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // // the for loop
 
@@ -38,7 +38,7 @@
 
 // looping backwards
 
-const person = ["Wondwosen Asegid", 21, "developer", "coding"];
+const person = ['Wondwosen Asegid', 21, 'developer', 'coding'];
 
 for (let i = person.length - 1; i >= 0; i--) {
   console.log(person[i]);
