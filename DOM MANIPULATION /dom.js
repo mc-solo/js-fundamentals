@@ -1,10 +1,12 @@
-// can;t understand this shit
-
-document.getElementById('primary-header');
+// finding elements form the DOM
+let heading = document.getElementById('primary-header');
 console.log(document.getElementById('primary-header'));
 
-document.getElementsByTagName('h1');
+let h1 = document.getElementsByTagName('h1');
 console.log(document.getElementsByTagName('h1'));
 
-document.getElementsByClassName('list-item-group');
+let item = document.getElementsByClassName('list-item-group');
 console.log(document.getElementsByClassName('list-item-group'));
+
+// changing HTML elements
+heading.textContent = 'New h1 content';
