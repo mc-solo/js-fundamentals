@@ -25,3 +25,11 @@ for (let i = 0; i < lists.length; i++) {
   lists[i].style.backgroundColor = '#333';
   lists[i].style.color = 'white';
 }
+
+console.log(document.all); //this one is deperecated
+console.log(document.title);
+console.log(document.all[10]);
+console.log(document.forms);
+let title = document.getElementsByTagName('title');
+title.textContent = 'Bella Ciao';
+console.log(title.textContent);
