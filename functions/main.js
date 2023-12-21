@@ -38,7 +38,7 @@ greet("Wendi");
 let Hey = function (brother) {
   console.log(`Hello there ${brother}`);
 };
-Hey("Wendi");
+Hey("Wendi ");
 
 //Function Declaration:
 
