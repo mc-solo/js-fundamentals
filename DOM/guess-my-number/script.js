@@ -1,7 +1,7 @@
 'use strict';
 
 //the query selector
-let message =  document.querySelector('.message');
+const message =  document.querySelector('.message');
 
 
 // changing the text content using the .textContent method
@@ -30,6 +30,10 @@ const button = document.querySelector('.check');
 button.addEventListener('click' , function () {
     const guess  = Number(document.querySelector('.guess').value)
     console.log( guess, typeof guess);
+
+    if(!guess) {
+        message.textContent = '⛔ Not a valid number!'
+    }
 })
 
 
