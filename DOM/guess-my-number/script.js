@@ -29,6 +29,11 @@ let guessValue = guess.value = 74;
 console.log(guessValue);
 
 
+// click event handling
+
+
+
+
 
 
 
