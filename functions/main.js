@@ -31,7 +31,7 @@ function greet(name) {
   console.log(`Hello ${name}`);
 }
 
-greet("Wendi");
+greet("Wende");
 
 // function expressions
 

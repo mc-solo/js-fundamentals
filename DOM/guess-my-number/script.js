@@ -27,16 +27,9 @@ console.log(message);
 // click event handling
 const button = document.querySelector('.check');
 
-button.addEventListener('click' , function () {
-    const guess  = Number(document.querySelector('.guess').value)
-    console.log( guess, typeof guess);
-
-    if(!guess) {
-        message.textContent = '⛔ Not a valid number!'
-    }
-})
-
-
+button.addEventListener('click', function() {
+// console.log('button clicked');
+});
 
 
 
