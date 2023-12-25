@@ -34,8 +34,11 @@ if(!value) {
     message.textContent = '⛔ Not a valid number';
 }
 else if(value === secretNumber) {
-    document.querySelector('.message').textContent = '🎉 Correct Number'
-}
+    message.textContent = '🎉 Correct Number'
+} else if(value > secretNumber) {
+     message.textContent = '📈 Too High';
+} else
+    message.textContent = '📉 Too Low';
 
 
 
