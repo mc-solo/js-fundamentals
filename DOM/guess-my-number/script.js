@@ -20,15 +20,24 @@ console.log(message);
 
 const guess = document.querySelector('.guess');
 
+const secretNumber = Math.trunc((Math.random() * 20) + 1);
+document.querySelector('.number').textContent= secretNumber;
+console.log(secretNumber);
+
 // click event handling
 const button = document.querySelector('.check');
 
 button.addEventListener('click', function () {
   const value = Number(guess.value)
 
-if(!value) 
-message.textContent = '⛔ Not a valid number';
-else console.log(value);
+if(!value) {
+    message.textContent = '⛔ Not a valid number';
+}
+else if(value === secretNumber) {
+    document.querySelector('.message').textContent = '🎉 Correct Number'
+}
+
+
 
 
 });
