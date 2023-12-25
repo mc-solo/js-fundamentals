@@ -1,19 +1,15 @@
 'use strict';
 
 //the query selector
-const message =  document.querySelector('.message');
-
+const message = document.querySelector('.message');
 
 // changing the text content using the .textContent method
-message.textContent = "start guessing "
+message.textContent = 'start guessing ';
 console.log(message);
-
-
 
 // let score = document.querySelector('.label-score');
 // console.log(score);
 // // score.textContent = 13.5;
-
 
 // document.querySelector('.number').textContent = '14';
 // document.querySelector('.score').textContent = '9'
@@ -22,18 +18,17 @@ console.log(message);
 // let value = num.value = 47;
 // console.log(value);
 
-
+const guess = document.querySelector('.guess');
 
 // click event handling
 const button = document.querySelector('.check');
 
-button.addEventListener('click', function() {
-// console.log('button clicked');
+button.addEventListener('click', function () {
+  const value = Number(guess.value)
+
+if(!value) 
+message.textContent = '⛔ Not a valid number';
+else console.log(value);
+
+
 });
-
-
-
-
-
-
- 
