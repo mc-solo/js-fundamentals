@@ -20,3 +20,4 @@ h2.addEventListener('click', function(event) {
     console.log('event.target');
     event.target.textContent = 'Clicked'
 })
+  
