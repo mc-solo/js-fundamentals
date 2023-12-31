@@ -6,6 +6,10 @@ const restaurant = {
   catagories: ['Italian', 'Pizzeria', 'Vegerarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
+
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
 };
 
 // Destructuring an array
@@ -18,7 +22,10 @@ console.log(arr);
 const [x, y, z] = arr;
 console.log(x, y, z);
 
-const [first, second] = restaurant.catagories;
+let [first, second] = restaurant.catagories;
+
+// wanna switch the order
+[first, second] = [second, first];
 console.log(first, second); //takes the first two values from the array
 
 // but what if i want to take out the 3rd value, how would i do that???
@@ -26,3 +33,7 @@ console.log(first, second); //takes the first two values from the array
 
 const [, , third] = restaurant.catagories; //ommiting the var name will do it
 console.log(third);
+
+const [starterCourse, mainCourse] = restaurant.order(2, 0);
+console.log(starterCourse);
+console.log(mainCourse);
