@@ -17,3 +17,12 @@ console.log(arr);
 
 const [x, y, z] = arr;
 console.log(x, y, z);
+
+const [first, second] = restaurant.catagories;
+console.log(first, second); //takes the first two values from the array
+
+// but what if i want to take out the 3rd value, how would i do that???
+// let's try with this method
+
+const [, , third] = restaurant.catagories; //ommiting the var name will do it
+console.log(third);
