@@ -56,9 +56,32 @@ const badNewArr = [arr[0], arr[1], 2.5]; //doing the manual work to import the v
 
 //but using  the spread operator
 
-const newArr = [5, 4, ...arr]; // ... is called the spread operator
-console.log(newArr);
+// const newArr = [5, 4, ...arr]; // ... is called the spread operator
+// console.log(newArr);
 
 // we can use this operator whenever we want to get individual elements for the array for ex
 
 console.log(...arr);
+
+// use cases of the rest or aka spread operartor
+
+// 1. copying arrays
+const originalArray = [1, 2, 3, 4];
+const newArrray = [...originalArray];
+
+// 2. Combining Arrays
+
+const array1 = [1, 3, 5];
+const array2 = [2, 4, 6];
+
+const combinedArray = [...array1, ...array2];
+console.log(combinedArray);
+
+// 3. Passing function arguments
+
+const numbers = [12, 23, 34];
+
+const sum = (a, b, c) => a + b + c;
+const result = sum(...numbers);
+
+console.log(result);
