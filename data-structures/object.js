@@ -85,3 +85,12 @@ const sum = (a, b, c) => a + b + c;
 const result = sum(...numbers);
 
 console.log(result);
+
+// 4. Rest parameters in functions
+
+const countGuests = (host, ...guests) => {
+  console.log(host + ' invited: ');
+  console.log(guests.length + ' guests attended.');
+};
+
+countGuests('John', 'Alice', 'Bob', 'Chalie');
