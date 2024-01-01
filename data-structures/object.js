@@ -50,3 +50,15 @@ restaurant.order({
   mainIndex: 2,
   starterIndex: 2,
 });
+
+const arr = [1, 2, 3];
+const badNewArr = [arr[0], arr[1], 2.5]; //doing the manual work to import the value of elemetns from the original array
+
+//but using  the spread operator
+
+const newArr = [5, 4, ...arr]; // ... is called the spread operator
+console.log(newArr);
+
+// we can use this operator whenever we want to get individual elements for the array for ex
+
+console.log(...arr);
