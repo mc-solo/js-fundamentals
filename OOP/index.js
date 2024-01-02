@@ -31,6 +31,28 @@ mc_solo.job = 'developer';
 // Now let's take a close look at constructor functions
 // they are used to create and initialize an object and basically they are function, a special ones
 
+function Vehicle(make, model, year) {
+  // defining object properties
+  this.make = make;
+  this.model = model;
+  this.year = year;
+
+  //  defining object behaviour
+  this.startEngine = function () {
+    console.log('Engine started');
+  };
+
+  this.shiftGear = function () {
+    console.log('Gear shift detected');
+  };
+}
+
+const car1 = new Vehicle('Toyota', 'Camry', 2023);
+
+console.log(`${car1}, ${typeof car1}`);
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+
 console.log(mc_solo.job);
 // Encapsulation
 // The best functions are the one with no parameters. -Someone
