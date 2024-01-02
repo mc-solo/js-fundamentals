@@ -49,7 +49,12 @@ function Vehicle(make, model, year) {
 
 const car1 = new Vehicle('Toyota', 'Camry', 2023);
 
-console.log(`${car1}, ${typeof car1}`);
+console.log(car1, typeof car1);
+
+// ex. trigerring the engine
+
+const engineState = car1.startEngine();
+console.log(engineState);
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 
