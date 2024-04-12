@@ -10,3 +10,8 @@ div.textContent= 'Wondwosen Asegid' //over writes the  above one
 
 const my_heading = document.getElementById('my_heading')
 my_heading.innerHTML += '<div>Brought to live by js</div>'
+
+console.log('my_heading')
+
+const container = document.querySelector('.container')
+console.log(container.textContent)
