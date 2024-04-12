@@ -15,3 +15,9 @@ console.log('my_heading')
 
 const container = document.querySelector('.container')
 console.log(container.textContent)
+
+
+const lists = document.querySelectorAll('list-item')
+console.log(lists)
+console.log(lists.textContent) //this one's undefined for multiple elements
+
