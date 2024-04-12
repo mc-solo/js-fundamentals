@@ -7,3 +7,6 @@ body.append(div)
 
 div.innerText = 'mc_solo' //works same as textContet
 div.textContent= 'Wondwosen Asegid' //over writes the  above one
+
+const my_heading = document.getElementById('my_heading')
+my_heading.innerHTML += '<div>Brought to live by js</div>'
