@@ -20,4 +20,5 @@ console.log(container.textContent)
 const lists = document.querySelectorAll('list-item')
 console.log(lists)
 console.log(lists.textContent) //this one's undefined for multiple elements
+console.log(lists.innerText) //this also
 
