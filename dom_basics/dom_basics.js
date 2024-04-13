@@ -22,3 +22,16 @@ console.log(lists)
 console.log(lists.textContent) //this one's undefined for multiple elements
 console.log(lists.innerText) //this also
 
+
+
+// creating and modifying elements
+
+const ol = document.createElement('ol')
+body.append(ol)
+ol.innerHTML += '<li orderd-list>Second List</li>'
+
+
+// removing a child node
+// to remove a child, the parent node must be selected first
+
+body.removeChild(ol)
