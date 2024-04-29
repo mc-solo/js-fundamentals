@@ -107,3 +107,5 @@ function Person(name, age) {
 // Creating a person object using encapsulation
 
 const john = Person('John', 21);
+
+// oop refresher after a long period of time
