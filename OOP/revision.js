@@ -30,6 +30,8 @@ const type = typeof page1;
 console.log(`type of page1 is ${page1}`);
 
 // come up with some examples
+// this : is a reference to the object executing the function itself
+// whenever an object has at least one method, it's got a behaviour
 function Student(name, college, department) {
   this.name = name;
   this.college = college;
